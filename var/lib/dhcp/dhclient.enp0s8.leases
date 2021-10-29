@@ -1,0 +1,45 @@
+default-duid "\000\001\000\001&\0330\"\010\000'w\277\365";
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 5 2021/10/29 22:10:26;
+  rebind 5 2021/10/29 22:14:52;
+  expire 5 2021/10/29 22:16:07;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 5 2021/10/29 22:14:33;
+  rebind 5 2021/10/29 22:19:11;
+  expire 5 2021/10/29 22:20:26;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 5 2021/10/29 22:18:56;
+  rebind 5 2021/10/29 22:23:18;
+  expire 5 2021/10/29 22:24:33;
+}
+lease {
+  interface "enp0s8";
+  fixed-address 192.168.56.101;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.56.100;
+  renew 5 2021/10/29 22:23:39;
+  rebind 5 2021/10/29 22:27:41;
+  expire 5 2021/10/29 22:28:56;
+}
