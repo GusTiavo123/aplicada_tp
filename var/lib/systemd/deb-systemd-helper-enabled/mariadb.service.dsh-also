@@ -1,3 +1,0 @@
-/etc/systemd/system/multi-user.target.wants/mariadb.service
-/etc/systemd/system/mysql.service
-/etc/systemd/system/mysqld.service
